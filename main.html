@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title >Esercizio NodeJs</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1 align="center">ESERCIZIO NODE JS</h1>
+        <br>
+        <h4 align="center">Employe function</h4>
+        <div id="divManage">
+        <table align="center">
+            <tr>
+                <td align="left">
+                    Find employees: 
+                </td>
+                <td>
+                    <input type="number" id="inputFind">
+                </td>
+                <td>
+                    <button id="buttonGoFind" onclick="FindEmployees()">GO</button>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    Delete employees: 
+                </td>
+                <td>
+                    <input type="number" id="inputDelete">
+                </td>
+                <td>
+                    <button id="buttonGoDelete" onclick="employeDelete()">GO</button>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    Click for new employees 
+                </td>
+                <td>
+                    <button id="buttonNew" onclick="showNew()">New employees</button>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <label id="labelAvvisi"></label>
+        </div>
+        <div id="divAdd" style="visibility: hidden;">
+        <h4 align="center">Employe manage</h4>
+        <table align="center">
+            <tr>
+                <td align="left">
+                    Employees ID: 
+                </td>
+                <td>
+                    <input type="number" id="inputNewId">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    Employees name: 
+                </td>
+                <td>
+                    <input type="text" id="inputNewName">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    Employees surname: 
+                </td>
+                <td>
+                    <input type="text" id="inputNewSurname">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    Employees level: 
+                </td>
+                <td>
+                    <input type="number" id="inputNewLevel">
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    Employees salary: 
+                </td>
+                <td>
+                    <input type="number" id="inputNewSalary">
+                </td>
+                <td>
+                    <button id="buttonNewAdd" onclick="employeSave()">Save</button>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>    
+</html>
