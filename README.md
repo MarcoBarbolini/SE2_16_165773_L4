@@ -2,6 +2,7 @@
 
 Per testare:
 - Attivare lato server con comando 'node index.js'
+- Eseguire comando di aggiornamento node_modules 'npm update'
 - Navigare mediante 'main.html'
 
 Allo stato iniziale nessun Employe è caricato.
